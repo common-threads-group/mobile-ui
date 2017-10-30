@@ -48,3 +48,21 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## Setting up to run build Android and IOS cordova deployments (on a mac)
+First, get cordova: `npm install -g cordova`
+
+### Android
+1) Get Android Studio, following the install instructions
+2) Go to Preferences -> Appearance & Behavior -> System Settings -> Android SDK
+3) Click "Edit" to the right of "Android SDK Location"
+4) Click "Next" until you can click it no more
+2) chmod 777 /Applications/Android\ Studio.app/Contents/gradle/gradle-4.1/bin/gradle
+3) cd ~/Library/Android/sdk/tools/bin
+4) ./sdkmanager --licenses
+5) Say yes when asked if you want to view unaccepted licenses. Accept all the licenses.
+6) Go to the project and type `ember cordova:build --platform=android`
+
+### IOS
+1) Get XCode
+2) In the project, type `ember cordova:build --platform=android`
