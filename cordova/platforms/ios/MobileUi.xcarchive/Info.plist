@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/MobileUi.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.commonthreads.waldo.mobile</string>
+		<key>CFBundleShortVersionString</key>
+		<string>1.0.0</string>
+		<key>CFBundleVersion</key>
+		<string>1.0.0</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Developer: rainman_21@icloud.com (UQ87NP9529)</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2017-10-29T20:08:32Z</date>
+	<key>Name</key>
+	<string>MobileUi</string>
+	<key>SchemeName</key>
+	<string>MobileUi</string>
+</dict>
+</plist>
